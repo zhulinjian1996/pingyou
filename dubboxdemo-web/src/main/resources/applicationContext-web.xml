@@ -17,6 +17,6 @@
     </mvc:annotation-driven>
     <!-- 引用dubbo 服务 -->
     <dubbo:application name="dubboxdemo-web" />
-    <dubbo:registry address="zookeeper://122.152.200.56:2181"/>
+    <dubbo:registry address="zookeeper://122.152.200.58:2181"/>
     <dubbo:annotation package="cn.itcast.dubboxdemo.controller" />
 </beans>
